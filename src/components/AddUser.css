@@ -1,0 +1,85 @@
+.add-heading{
+    display: flex;
+    align-items: center;
+width:871px;
+height: 37px;
+padding: 10px 20px 10px 20px;
+border-radius: 12px ;
+border: 1px 0px 0px 0px;
+background-color:white;
+margin-bottom: 20px;
+
+}
+
+.active-user{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+margin-left: 10px;
+
+}
+.add-user-container{
+   border: 1px solid black;
+  
+}
+.add-user-form{
+    width: 871px;
+    height: 441px;
+background-color:white;
+border-radius: 12px ;
+padding: 0px 20px 0px 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.add-user-button{
+    width: 150px;
+    height: 36px;
+    padding: 8px 12px 8px 12px;
+    gap: 0px;
+    border-radius: 8px ;
+    opacity: 0px;
+     background-color:#2D58F1;
+     color: white;
+     border: none;
+
+}
+.button-add-new{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+
+}
+.input-field{
+    border: none;
+    width: 200px;
+outline: none;
+}
+.input-field-container{
+    width: 319px;
+
+border-bottom: 1px solid   #dddada;
+padding: 5px;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+margin-right: 5px;
+}
+
+.cancel-button{
+    width: 150px;
+    height: 36px;
+    padding: 8px 12px 8px 12px;
+    gap: 0px;
+    border-radius: 8px ;
+    opacity: 0px;
+     background-color:none;
+     color: black;
+border: 1px solid black; 
+margin-right: 10px;
+}

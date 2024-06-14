@@ -1,0 +1,105 @@
+.table-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: Fixed (871px)px;
+height: Fixed (373px)px;
+padding: 0px 20px 0px 20px;
+border-radius: 12px ;
+border: 1px 0px 0px 0px;
+background-color:white;
+margin-bottom: 20px;
+
+}
+.active-user{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+
+}
+.add-user-button1{
+    width: 150px;
+    height: 36px;
+    padding: 8px 12px 8px 12px;
+    gap: 0px;
+    border-radius: 8px ;
+    opacity: 0px;
+     background-color:#2D58F1;
+     color: white;
+     border: none;
+
+}
+
+#table-container{
+    background-color: white;
+    width: 871px;
+border: 0px 0px 2px 0px;
+opacity: 0px;
+border-color: #F2F2F2;
+padding: 0px 20px 0px 20px;
+
+
+}
+.header-of-table{
+    border-bottom:2px solid  #F2F2F2;
+
+}
+.serial-number{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 300;
+line-height: 18px;
+text-align: right;
+
+}
+.main-name{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 300;
+line-height: 18px;
+text-align: left;;
+}
+
+
+.table-row-details{
+    text-align: left;
+    font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+border-bottom: 1px solid #F2F2F2;
+
+}
+.edit-button{
+    
+font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+background: none;
+border: none;
+color: #6481E9;
+;
+
+}
+.delete-button{
+  
+font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+background: none;
+border: none;
+color: #E05151;
+
+}
+
+
+.table-row{
+    border-bottom: 1px solid red;
+}
